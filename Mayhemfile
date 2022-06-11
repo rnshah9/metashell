@@ -1,0 +1,8 @@
+project: metashell
+target: metashell
+image: ghcr.io/rnshah9/playground:metashell
+#t
+cmds:
+  - cmd: /repo/build/app/metashell
+    env:
+      DISABLE_SMOKETEST: '1'
